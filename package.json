@@ -1,17 +1,16 @@
 {
-  "name": "hello-worlds",
+  "name": "101-hello-worlds",
   "version": "1.0.0",
-  "description": "",
-  "main": "hello1.js",
+  "description": "A Rube Goldbergian exercise in exploring convoluted solutions to simple problems. The goal of this repo is to accrue 101 uniqe approaches to saying 'Hello, World' in JavaScript.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/georgemandis/101-hello-worlds.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "George Mandis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/georgemandis/101-hello-worlds/issues"
