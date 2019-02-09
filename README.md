@@ -10,10 +10,19 @@ If you would like to add your own "Hello, World" solution to the repository I su
 
 So long as your solution returns a value of "Hello, World" (case-sensitive!) it should pass the tests. Look at `src/001-hellow-world.js` for the simplest example.
 
+When you're ready to make a pull request please use this format for your branch name:
+
+`<github username>-<3-digit zero left-padded number>-hello-world`
+
+For example, if I was contributing a solution that happened to be the 16th in the repository I'd format my branch name like this:
+
+`georgemandis-016-hello-world`
+
+If multiple people submit pull requests with the same number don't worry. We'll fix everything in merge.
+
 ## Rules
 
 For the most part there are no rules, though I exepct (and slightly hope) that might change as people make more adventurous solutions! However, to keep the test script usable and potentially automatable, I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
-
 
 ## Running Tests
 
