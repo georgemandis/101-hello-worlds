@@ -20,6 +20,8 @@ For example, if I was contributing a solution that happened to be the 16th in th
 
 If multiple people submit pull requests with the same number don't worry. We'll fix everything in merge.
 
+Lastly, though not required, I'd highly encourage a written description either in the comments of your code or the pull request  explaining what's going on in the program and what your approach was. It's easy to test and figure out if it works, but it's not always easy to tell at a glance *how* or *why* it works.
+
 ## Rules
 
 For the most part there are no rules, though I exepct (and slightly hope) that might change as people make more adventurous solutions! However, to keep the test script usable and potentially automatable, I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
