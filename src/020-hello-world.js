@@ -3,13 +3,13 @@
  */
 
 module.exports = () => {
-  class HelloWorld {    
+  class Hello {    
     get World() {
       return "Hello, World";
     }
   }
 
-  return (new HelloWorld());
+  return (new Hello()).World;
 };
 
 /**
