@@ -2,15 +2,15 @@
  *  Hello World #26
  */
 
-module.exports = () => {
-  function _(s='') {
+module.exports = function () {
+  function fn(s='') {
     return new Proxy({}, {
       get(_, key) {
-        return s ? () => [s, ' ' + key] + [] : _(s + key)
+        return s ? () => [s, ' ' + key] + [] : fn(s + key)
       },
     });
   }
-  return _().Hello.World();
+  return fn().Hello.World();
 };
 
 /**
