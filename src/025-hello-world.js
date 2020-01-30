@@ -4,8 +4,7 @@
 
 module.exports = (i = 0) => {
 
-  method = (obj, name) => Object.getOwnPropertyNames(obj)
-    .find(method => name.test(method));
+  method = (obj, name) => Object.getOwnPropertyNames(obj).find(m => name.test(m));
   for(
     s='',
     a=`䡥汬漬⁗潲汤`
