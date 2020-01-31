@@ -1,5 +1,6 @@
 /**
  *  Hello World #22
+ *  By @georgemandis
  */
 
 module.exports = () => {
@@ -8,7 +9,7 @@ module.exports = () => {
     ", ": {},
     World: {}
   };
-
+  
   return (Object.keys(HelloWorldClass).join(""));
 };
 
