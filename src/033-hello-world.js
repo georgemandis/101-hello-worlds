@@ -1,5 +1,6 @@
 /**
- *  Hello World #32
+ *  Hello World #33
+ *  By @nderscore
  */
 
 module.exports = () => (
