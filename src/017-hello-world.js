@@ -1,5 +1,6 @@
 /**
  *  Hello World #17
+ *  By @georgemandis
  */
 
 module.exports = () => {

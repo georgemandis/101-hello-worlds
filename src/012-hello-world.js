@@ -1,5 +1,6 @@
 /**
  *  Hello World #12
+ *  By @georgemandis
  */
 
 eval(
