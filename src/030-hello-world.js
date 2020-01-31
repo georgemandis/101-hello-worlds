@@ -1,5 +1,6 @@
 /**
- *  Hello World #27
+ *  Hello World #30
+ *  By @capnfabs
  */
 
 module.exports = () => {
