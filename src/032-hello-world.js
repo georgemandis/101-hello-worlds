@@ -1,5 +1,6 @@
 /**
- *  Hello World #1
+ *  Hello World #32
+ *  By @kirjavascript
  */
 
 module.exports = () => {
