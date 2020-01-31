@@ -24,7 +24,7 @@ Lastly, though not required, I'd highly encourage a written description either i
 
 ## Rules
 
-For the most part there are no rules, though I exepct (and slightly hope) that might change as people make more adventurous solutions! However, to keep the test script usable and potentially automatable, I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
+For the most part there are no rules, though I expect (and slightly hope) that might change as people make more adventurous solutions! However, to keep the test script usable and potentially automatable, I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
 
 ## Running Tests
 
