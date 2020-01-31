@@ -6,9 +6,9 @@ A Rube Goldbergian exercise in exploring convoluted solutions to simple problems
 
 **Please contribute your solution!** I want to see your over-engineered solutions to the first program all programmers learn. For discussions on ways to improve this please see the issue tracker.
 
-If you would like to add your own "Hello, World" solution to the repository I suggest starting with the `template.js` file. Copy it to the correct filename in the `src/` folder and rename it to the next number in the sequence, e.g. `00X-hellow-world.js`. 
+If you would like to add your own "Hello, World" solution to the repository I suggest starting with the `template.js` file. Copy it to the correct filename in the `src/` folder and rename it to the next number in the sequence, e.g. `00X-hello-world.js`. 
 
-So long as your solution returns a value of "Hello, World" (case-sensitive!) it should pass the tests. Look at `src/001-hellow-world.js` for the simplest example.
+So long as your solution returns a value of "Hello, World" (case-sensitive!) it should pass the tests. Look at `src/001-hello-world.js` for the simplest example.
 
 When you're ready to make a pull request please use this format for your branch name:
 
@@ -18,13 +18,13 @@ For example, if I was contributing a solution that happened to be the 16th in th
 
 `georgemandis-016-hello-world`
 
-If multiple people submit pull requests with the same number don't worry. We'll fix everything in merge.
+If multiple people submit pull requests with the same number don't worry. I'll fix everything in merge.
 
-Lastly, though not required, I'd highly encourage a written description either in the comments of your code or the pull request  explaining what's going on in the program and what your approach was. It's easy to test and figure out if it works, but it's not always easy to tell at a glance *how* or *why* it works.
+Though not required, I'd highly encourage a written description either in the comments of your code or the pull request  explaining what's going on in the program and what your approach was. It's easy to test and figure out if it works, but it's not always easy to tell at a glance *how* or *why* it works.
 
 ## Rules
 
-For the most part there are no rules, though I expect (and slightly hope) that might change as people make more adventurous solutions! However, to keep the test script usable and potentially automatable, I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
+For the most part there are no rules, though I expect (and slightly hope) that might change as people make more adventurous solutions! To keep the test script usable and potentially automatable I'd ask that no solutions require an extreme amount of time to execute. One example I had but nixed: a "Hello, World" script that takes days to execute. Funny and interesting, but kind of renders the testing impractical.
 
 ## Running Tests
 
