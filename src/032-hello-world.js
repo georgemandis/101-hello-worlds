@@ -1,11 +1,9 @@
 /**
- *  Hello World #35
+ *  Hello World #32
  *  By @kirjavascript
  */
 
-module.exports = () => {
-    return /Hello, World/.source;
-};
+module.exports = () => /Hello, World/.source;
 
 /**
  * If run directly "Hello, World" will be written to the console
