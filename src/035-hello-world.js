@@ -1,16 +1,10 @@
 /**
- *  Hello World #28
+ *  Hello World #35
  *  By @kirjavascript
  */
 
-module.exports = () => {
-  fn = (s) => new Proxy({}, {
-    get(_, key) {
-      return s ? () => [s, ' ' + key] + [] : fn(key)
-    },
-  })
-  return fn().Hello.World();
-};
+for(_='-~!World)),HEHello|[++_]+*[]^module.exports=_=>([,,,,...H]=^+(_=>(|, E[(^+{})[_=!!!^]+H*(_\
+_=^+_._)*__[!_]](^).slice(+^,~^)) ';H=/[\^*|E!]/.exec(_);)with(_.split(H))_=join(shift());eval(_);
 
 /**
  * If run directly "Hello, World" will be written to the console
