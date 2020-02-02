@@ -1,15 +1,18 @@
 /**
  *  Hello World #20
+ *  by @georgemandis
  */
 
 module.exports = () => {
-  class Hello {    
-    get World() {
-      return "Hello, World";
-    }
-  }
+  const _={H:{e:{l:{l:{o:{", ":{W:{o:{r:{l:{d:{}}}}}}}}}}}};
 
-  return (new Hello()).World;
+  const fn = hw => {
+    let l;
+    for (let i in hw) l = i + fn(hw[i]);    
+    return l ? l : "";
+  }
+  
+  return fn(_);
 };
 
 /**
