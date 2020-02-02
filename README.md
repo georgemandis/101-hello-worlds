@@ -36,3 +36,12 @@ All of the contributed examples will be tested to assure they return "Hello, Wor
 
 If you use the `template.js` file to start it's setup so that you can also simply run `node src/00x-hello-world.js` to execute your script and see what the output will be.
 
+## Inspiration
+
+Places to look for inspiration:
+
+- [FizzBuzzEnerpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+- [The International Obfuscated C Code Contest](https://www.ioccc.org/)
+- [The Bulwer Lytton Fiction Contest](https://www.bulwer-lytton.com/)
+- [Blackout Poetry](https://www.scholastic.com/teachers/blog-posts/john-depasquale/blackout-poetry/)
+
