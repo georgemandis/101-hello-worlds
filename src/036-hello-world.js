@@ -1,9 +1,9 @@
 /**
- *  Hello World #32
- *  By @kirjavascript
+ *  Hello World #36
+ *  by @georgemandis
  */
 
-module.exports = () => /Hello, World/.source;
+module.exports = () => require(`${__dirname}/001-hello-world.js`)();
 
 /**
  * If run directly "Hello, World" will be written to the console
@@ -11,4 +11,4 @@ module.exports = () => /Hello, World/.source;
  * a value to assert correctness;
  */
 
-module.id == "." ? console.log(module.exports()) : null
+module.id == "." ? console.log(module.exports()) : null;
