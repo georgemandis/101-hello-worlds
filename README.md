@@ -40,6 +40,7 @@ If you use the `template.js` file to start it's setup so that you can also simpl
 
 Places to look for inspiration:
 
+- [Questions tagged hello-world on Code Golf](https://codegolf.stackexchange.com/questions/tagged/hello-world)
 - [FizzBuzzEnerpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
 - [The International Obfuscated C Code Contest](https://www.ioccc.org/)
 - [The Bulwer Lytton Fiction Contest](https://www.bulwer-lytton.com/)
