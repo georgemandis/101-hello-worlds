@@ -45,4 +45,5 @@ Places to look for inspiration:
 - [The International Obfuscated C Code Contest](https://www.ioccc.org/)
 - [The Bulwer Lytton Fiction Contest](https://www.bulwer-lytton.com/)
 - [Blackout Poetry](https://www.scholastic.com/teachers/blog-posts/john-depasquale/blackout-poetry/)
+- [is-thirteen](https://github.com/jezen/is-thirteen)
 
