@@ -1,6 +1,6 @@
 /**
- *  Hello World #<number>
- *  By @<github-username>
+ *  Hello World #040
+ *  By @lukegil
  */
 
 module.exports = () => {
