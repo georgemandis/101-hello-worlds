@@ -5,13 +5,13 @@
 
 module.exports = () => {
   return __filename
-    .replace(__dirname, "")
-    .replace(/[^a-zA-Z\\.]/g, " ")
-    .split(".")[0]
-    .trim()
-    .split(" ")
-    .map((word) => word[0].toUpperCase() + word.slice(1, word.length))
-    .join(", ");
+    .replace(__dirname, "") // /file/path/040-hello-world.js ->  /040-hello-world.js
+    .replace(/[^a-zA-Z\\.]/g, " ") // /040-hello-world.js -> "     hello world.js"
+    .trim() // "     hello world.js" -> "hello world.js"
+    .split(".")[0] // "hello world.js" -> ["hello world", "js"] -> "hello world"
+    .split(" ") // "hello world" -> ["hello", "world"]
+    .map((word) => word[0].toUpperCase() + word.slice(1, word.length)) // ["hello", "world"] -> ["Hello", "World"]
+    .join(", "); // ["Hello", "World"] -> "Hello, World"
 };
 
 /**
