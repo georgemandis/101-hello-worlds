@@ -4,8 +4,8 @@
  */
 
 module.exports = () =>
-    (a=(t)=>{try{return t``}catch(g){return(globalThis[e=(g+[g])
-    .match(/\S+/g)[1]]=e),a(t)}})(()=>[]+[ Hello, ' ' + World ])
+    (a=t=>{try{return t``}catch(g){return(globalThis[e=(g+[g]).
+    match(/\S+/g)[1]]=e),a(t)}})(()=>[]+[ Hello, ' ' + World ])
 
 /**
  * If run directly "Hello, World" will be written to the console
