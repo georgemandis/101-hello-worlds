@@ -18,8 +18,9 @@ const results = helloWorlds.reduce((previous, current, index) => {
   // The try/catch approach here is required because of my non-glob
   // approach noted earlier.
   try {
+    let previousReturnsHelloWorld = previous;
     if (index === 1) {
-      const previousReturnsHelloWorld = require(previous)() === "Hello, World";
+      previousReturnsHelloWorld = require(previous)() === "Hello, World";
       console.log(
         `${previous} — ${
           previousReturnsHelloWorld ? "✅ Passes!" : "❌ Fails :("
@@ -33,24 +34,24 @@ const results = helloWorlds.reduce((previous, current, index) => {
     );
 
     return index == 1
-      ? require(previous)() === "Hello, World" &&
-          require(current)() === "Hello, World"
-      : previous && require(current)() === "Hello, World";
+      ? previousReturnsHelloWorld && returnsHelloWorld
+      : previous && returnsHelloWorld;
   } catch (e) {
     // Ignore module not found errors because that's expected
     // until we reach 101 examples.
     if (e.code !== "MODULE_NOT_FOUND") {
-      console.log(`‼️ ${e.message}`);
+      console.log(`${current} — ❌ Fails: ${e.message}`);
+      return false;
     } else {
-      return true;
+      return previous;
     }
   }
 });
 
-console.log();
 console.log(
-  results
-    ? "😀 Tests passed! All scripts returned 'Hello, World'"
-    : "☹️ Tests failed! One or more scripts did not return 'Hello, World'"
+  `\n${
+    results
+      ? "\n😀 Tests passed! All scripts returned 'Hello, World'"
+      : "\n☹️  Tests failed! One or more scripts did not return 'Hello, World'"
+  }\n`
 );
-console.log();
