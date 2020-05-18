@@ -15,12 +15,14 @@ module.exports = () => {
                   return (i => {
                     return (j => {
                       return (k => {
-                        return k + j + i + h + g + f + e + d + c + b + a;
-                      })("H");
-                    })("e");
+                        return (l => {
+                          return l + k + j + i + h + g + f + e + d + c + b + a;
+                        })("H");
+                      })("e");
+                    })("l");
                   })("l");
-                })("l");
-              })("o");
+                })("o");
+              })(",");
             })(" ");
           })("W");
         })("o");
