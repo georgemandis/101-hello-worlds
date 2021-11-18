@@ -1,6 +1,6 @@
 # 101 Ways to Say "Hello, World"
 
-A Rube Goldbergian exercise in exploring convoluted solutions to simple problems. The goal of this repo is to accrue 101 uniqe approaches to saying 'Hello, World' in JavaScript. Over engineering and outside-the-box thinking is encouraged!
+A Rube Goldbergian exercise in exploring convoluted solutions to simple problems. The goal of this repo is to accrue 101 unique approaches to saying 'Hello, World' in JavaScript. Over engineering and outside-the-box thinking is encouraged!
 
 ## Getting Started & Contributing
 
