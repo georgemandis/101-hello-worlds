@@ -39,7 +39,7 @@ module.exports = () => {
 
   const res = (cp.execFileSync("node", [server]) + "").trim();
 
-  fs.rmSync(server);
+  fs.unlinkSync(server);
 
   return res;
 };
